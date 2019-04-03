@@ -1,0 +1,18 @@
+---
+layout: page
+---
+
+<div class="cool-greeter">
+  <h2 class="greeting">Welcome</h2>
+  <h3>to your home in Graskop</h3>
+  <p>We would like to introduce and welcome you to Valley View Backpackers.  We will make your stay as comfortable and as enjoyable as possible and help you with as much information as we can on the local activities and attractions.  This is a place where you can exchange experiences with fellow travellers, and if you would to keep in touch with family and friends, don't despair, we have WiFi!</p>
+</div>
+<img src="{{ site.baseurl }}/assets/surroundings.jpg" title="Cabin" class="profile">
+
+<script>
+  const greetings = ["Welcome", "Bem-vindo", "Benvenuti", "Willkommen", "Welkom", "Bienvenue", "Välkommen", "Bienvenido", "Velkommen"];
+  setInterval(() => {
+    document.querySelector(".greeting").innerHTML = greetings[Math.floor(Math.random()*greetings.length)];
+  }, 3000);
+
+</script>
