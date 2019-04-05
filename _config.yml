@@ -80,8 +80,8 @@ social:
   - name: Facebook
     icon: facebook
     username: valleyview
-    url: http://facebook.com/valley-view
-    desc: Friend me on Facebook
+    url: https://www.facebook.com/joeluc20/
+    desc: Follow us on Facebook
     share: true
 
   - name: GitHub
