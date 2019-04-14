@@ -262,9 +262,14 @@ pre code.hljs {
 		font-size: 50px;
 	}
 	.booking-link {
-		width: 50%;
+		width: 100%;
+		margin: 20px 0;
 		float: left;
 		text-align: center;
+
+		@media (min-width: 768px) {
+			width: 33%;
+		}
 	}
 	.booking {
 		max-width: 40px;
