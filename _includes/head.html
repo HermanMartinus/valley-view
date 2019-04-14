@@ -15,6 +15,13 @@
   <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/styles/{{ site.highlightjs_theme }}.min.css">
   <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/lightbox2/2.7.1/css/lightbox.css">
 
+  {% if page.custom_css %}
+  <!-- Custom page specific js files -->
+    {% for css_file in page.custom_css %}
+    <link rel="stylesheet" href='/css/{{ css_file }}.css'>
+    {% endfor %}
+  {% endif %}
+
   <!-- Favicon and other icons (made with http://www.favicon-generator.org/) -->
   <link rel="shortcut icon" href="{{ "/assets/icons/favicon.ico" | prepend: site.baseurl }}" type="image/x-icon">
   <link rel="icon" href="{{ "/assets/icons/favicon.ico" | prepend: site.baseurl }}" type="image/x-icon">

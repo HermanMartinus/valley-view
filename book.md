@@ -7,6 +7,7 @@ permalink: /book/
 
 <a href="https://www.hostelworld.com/hosteldetails.php/Valley-View-Backpackers/Graskop/73460" target="_blank" class="booking-link">
   <img src="{{ site.baseurl }}/assets/hostelworld.png" title="Hostelworld" class="booking">
+  hostelworld.com
 </a>
 
 <a href="mailto:melnjoe@valley-view.co.za" target="_blank" class="booking-link">
