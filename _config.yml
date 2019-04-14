@@ -18,6 +18,7 @@ description: >
 # Base URL of site (i.e. /blog). It should always start with a slash,
 # and never end with a slash. Set it to a blank value if hosting at the
 # root of your server.
+keywords: South Africa, Mpumalanga, Cheap accommodation, Budget accommodation, Backpackers, Hostel, Dorms, Double/single rooms, Rondavel, Cottage, Hospitality business, Self-catering, Camping, Cabins, Graskop, Blyde River Canyon, God's Window, Bourke's Luck Potholes, The Three Rondavels, Panorama Route, Kruger Park, Cross roads, Mountain bikes, Biking, Hiking, Routes, Forestry, Waterfalls, Mountains, Valleys, Views, Sabie Falls, Big Swing, Mac mac Falls, Mac Mac pools
 baseurl: # the subpath of your site, e.g. /blog/
 url: "http://valley-view.co.za" # the base hostname & protocol for your site
 cover: "/assets/header_image.jpg"
