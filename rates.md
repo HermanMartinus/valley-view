@@ -10,7 +10,7 @@ permalink: "/rates/"
 
 #### Basic Twin Private
 
-Sleeps 2 - Shared Bathroom **R401.00**
+Sleeps 2 - Shared Bathroom **R400.00**
 
 #### Basic Double Bed Private
 
