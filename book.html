@@ -1,0 +1,72 @@
+---
+layout: page
+title: Book
+permalink: /book/
+---
+<h2 style="text-align: center;">Book on <a href="https://www.hostelworld.com/hosteldetails.php/Valley-View-Backpackers/Graskop/73460" target="_blank">Hostelworld</a> or via the booking form below </h2>
+
+<!-- <a href="https://www.hostelworld.com/hosteldetails.php/Valley-View-Backpackers/Graskop/73460" target="_blank" class="booking-link">
+  <img src="{{ site.baseurl }}/assets/hostelworld.png" title="Hostelworld" class="booking">
+  hostelworld.com
+</a>
+<a href="tel:+27137671112" target="_blank" class="booking-link">
+  <img src="{{ site.baseurl }}/assets/phone.png" title="Phone" class="booking"/>
+  +27 84 299 04 23
+  <br/>
+  +27 13 767 1112
+</a>
+<a href="mailto:melnjoe@valley-view.co.za" target="_blank" class="booking-link">
+  <img src="{{ site.baseurl }}/assets/email.png" title="Email" class="booking"/>
+  melnjoe@valley-view.co.za
+</a> -->
+
+<br/>
+<div class="booking-form">
+  <h2>Booking form</h2>
+  <input type="text" id="name" placeholder="Name" />
+  <input type="text" id="nationality" placeholder="Nationality" />
+  <small>Date of arrival</small>
+  <input type="date" id="date-of-arrival" />
+  <small>Date of departure</small>
+  <input type="date" id="date-of-departure" />
+  <small>Number of adults</small>
+  <input type="number" min="1" value="1" id="number-of-adults" />
+  <small>Number of children</small>
+  <input type="number" min="0" value="0" id="number-of-children" />
+  <small>Room (we will contact you about availability)</small>
+  <select id="room">
+    <option value="Basic Twin Private">Basic Twin Private - Sleeps 2 - Shared Bathroom</option>
+    <option value="Basic Double Bed Private">Basic Double Bed Private - Sleeps 2 - Shared Bathroom</option>
+    <option value="Standard 2 Bed Family Room">Standard 2 Bed Family Room - Sleeps 2 - Shared Bathroom</option>
+    <option value="Standard 3 Bed Private">Standard 3 Bed Private - Sleeps 3 - Shared Bathroom</option>
+    <option value="Bed Mixed Dorm">Bed in 6 Bed Mixed Dorm - Sleeps 6 - Ensuite</option>
+  </select>
+  <textarea id="additional" placeholder="Additional comments" rows="6"></textarea>
+  <button id="sendButton">
+    Send
+  </button>
+</div>
+
+<script>
+  let baseLink = "mailto:melnjoe@valley-view.co.za";
+  document.querySelector("#sendButton").addEventListener("click", SendMessage);
+
+  function SendMessage() {
+    const name = document.querySelector("#name").value;
+    const nationality = document.querySelector("#nationality").value;
+    const dateofarrival = document.querySelector("#date-of-arrival").value;
+    const dateofdeparture = document.querySelector("#date-of-departure").value;
+    const adults = document.querySelector("#number-of-adults").value;
+    const children = document.querySelector("#number-of-children").value;
+    const room = document.querySelector("#room").value;
+    const additional = document.querySelector("#additional").value;
+
+    var finalLink = baseLink + "?subject=New booking inquiry via valley-view.co.za";
+    finalLink += `&body=${name} (${nationality}) is requesting to book room for ${adults} adults and ${children} children.
+    %0ADate of arrival: ${dateofarrival}
+    %0ADate of departure: ${dateofdeparture}
+    %0APreferred room: ${room}
+    %0AAdditional comments: ${additional}`;
+    window.open(finalLink, '_blank');
+  }
+</script>
