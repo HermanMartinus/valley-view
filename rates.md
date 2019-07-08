@@ -12,7 +12,7 @@ permalink: "/rates/"
 
 Sleeps 2 - Shared Bathroom **R360.00**
 
-#### Basic Double Bed Private 
+#### Basic Double Bed Private
 
 Sleeps 4 - Shared Bathroom **R390.00** for **2** and **R180** per extra perso**n**
 
@@ -24,13 +24,13 @@ Sleeps 4 - Private Bathroom **R420.00** for **2** and **R180 per** extra person
 
 Sleeps 3 - Shared Bathroom **R540.00**
 
-**Self-Catering Cottage can sleep 4 Private Bathroom.**
+#### Self Catering Cottage
 
-**R480** for **2** and **180** per extra person
+Sleeps 4 - Private Bathroom **R480.00** for **2** and **R180 per** extra person
 
-**Self Catering Rondavel can sleep 4 Private Bathroom**
+#### Self Catering Rondavel
 
-**R500** for **2** and **R180** per extra person
+Sleeps 4 - Private Bathroom **R500.00** for **2** and **R180 per** extra person
 
 ## DORM BEDS
 
