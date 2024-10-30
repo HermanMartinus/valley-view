@@ -6,7 +6,6 @@
 
     <div class="site-navigation">
 
-      <p><strong>Site Map</strong></p>
       <ul class="pages">
         {% for page in site.pages %}
         {% if page.title and page.main_nav != false %}
@@ -18,31 +17,11 @@
 
     <div class="site-contact">
 
-      <p><strong>Contact</strong></p>
-      <ul class="social-media-list">
-        <li>
-          <a href="mailto:{{ site.email }}">
-            <i class="fa fa-envelope-o"></i>
-            <span class="username">{{ site.email }}</span>
-          </a>
-        </li>
-
-        {% for social in site.social %}
-          {% if social.url != null %}
-          <li>
-            <a href="{{ social.url }}" title="{{ social.desc }}">
-              <i class="fa fa-{{ social.icon }}"></i>
-              <span class="username">{% if social.username %}{{ social.username }}{% else %}{{ social.name }}{% endif %}</span>
-            </a>
-          </li>
-          {% endif %}
-        {% endfor %}
-
-      </ul>
+      <p style="text-align: center;">All rights reserved<br>Valley View 2024</p>
     </div>
 
     <div class="site-signature">
-      <p class="text">{{ site.description }}</p>
+      <p class="text" style="text-align:center">{{ site.description }}</p>
     </div>
 
   </div>
