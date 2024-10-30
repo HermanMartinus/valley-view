@@ -5,8 +5,6 @@ permalink: "/rates/"
 
 ---
 
-# Accommodation Options
-
 ## Shared Rooms
 
 ### Dormitory (Standard 6-Bed Mixed Dormitory)
