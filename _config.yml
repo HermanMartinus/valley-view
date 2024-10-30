@@ -11,8 +11,8 @@ exclude:
 # Site settings
 title: ValleyView
 subtitle: "The most peaceful place in Graskop"
-email: melnjoe@valley-view.co.za
-name: Joseph
+email: valleyviewbackpackers@gmail.com
+name: Lance
 description: >
   Valley View Backpackers offers low-cost accommodation for international and domestic travellers on a budget.  It has varied and clean accommodation for all pockets.
 # Base URL of site (i.e. /blog). It should always start with a slash,
@@ -81,7 +81,7 @@ social:
   - name: Facebook
     icon: facebook
     username: valleyview
-    url: https://www.facebook.com/joeluc20/
+    url: 
     desc: Follow us on Facebook
     share: true
 

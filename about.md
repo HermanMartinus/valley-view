@@ -12,6 +12,6 @@ Valley View is above all a clean, friendly and homely place where you can relax 
 
 We hope to see your soon!
 
-Joseph
+Lance Joseph
 
 <img src="{{ site.baseurl }}/assets/joseph.jpg" title="Joe" class="profile">

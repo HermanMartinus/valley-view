@@ -6,13 +6,36 @@ layout: page
 We would like to introduce and welcome you to Valley View Backpackers.  We will make your stay as comfortable and as enjoyable as possible and help you with as much information as we can on the local activities and attractions.  This is a place where you can exchange experiences with fellow travellers, and if you would to keep in touch with family and friends, don't despair, we have WiFi!
 </p>
 <br>
-<div id="mygallery" >
+<div class="gallery" data-spotlight-group>
   {% for image in site.static_files %}
     {% if image.path contains 'assets/gallery' %}
-      <a href="{{ site.baseurl }}{{ image.path }}" target="_blank">
-        <img src="{{ site.baseurl }}{{ image.path }}"/>
-      </a>
+
+      <img src="{{ site.baseurl }}{{ image.path }}" data-spotlight/>
+
     {% endif %}
   {% endfor %}
 </div>
 
+
+<style>
+  .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+      gap: 1rem;
+      padding: 1rem;
+  }
+  .gallery img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+      cursor: pointer;
+      border-radius: 4px;
+      transition: transform 0.5s;
+  }
+  .gallery img:hover {
+      transform: scale(3);
+  }
+  .gallery img:active {
+      transform: scale(3);
+  }
+</style>
