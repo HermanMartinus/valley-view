@@ -44,7 +44,7 @@ p {
 
 a {
   color: $action-color;
-  text-decoration: none;
+  // text-decoration: none;
   // transition: color 0.1s linear;
 
   &:active,
@@ -76,4 +76,8 @@ picture {
 
 code {
 
+}
+
+.navigation, .site-footer {
+  display: none;
 }
